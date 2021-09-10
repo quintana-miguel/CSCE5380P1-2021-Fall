@@ -1,0 +1,8 @@
+nohup: ignoring input
+Input Notebook:  dataset - 3.ipynb
+Output Notebook: dataset3.ipynb
+Executing:   0%|          | 0/18 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   6%|▌         | 1/18 [00:14<04:12, 14.86s/cell]Executing:  11%|█         | 2/18 [00:15<01:43,  6.47s/cell]Executing:  17%|█▋        | 3/18 [00:43<04:05, 16.34s/cell]Executing:  17%|█▋        | 3/18 [01:39<08:17, 33.17s/cell]
+
+Aborted!
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
