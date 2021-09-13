@@ -5,6 +5,6 @@
 		}
 	],
 	"settings": {
-		"jupyter.jupyterServerType": "remote"
+		"jupyter.jupyterServerType": "local"
 	}
 }
