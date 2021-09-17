@@ -1,0 +1,25 @@
+[('03', '06', '07', '14', '15', '19'), ('06', '07', '10', '14', '15', '19'), ('03', '07', '10', '11', '14', '15'), ('03', '06', '07', '10', '14', '19')]
+[['03', '06', '07', '10', '11', '14'], ['03', '06', '07', '10', '14', '15'], ['03', '06', '07', '10', '14', '15'], ['03', '07', '10', '14', '15', '19']]
+[('06', '07', '11', '15'), ('06', '07', '10', '14'), ('07', '14', '15', '19'), ('06', '10', '14', '15')]
+[['06', '10', '14', '15'], ['03', '10', '14', '19'], ['03', '06', '10', '15'], ['03', '07', '10', '15']]
+[('06', '07', '14'), ('03', '06', '11'), ('03', '11', '14'), ('11', '15', '19')]
+[['07', '11', '14'], ['06', '07', '10'], ['03', '15', '19'], ['06', '14', '19']]
+[('06', '19'), ('07', '19'), ('03', '14'), ('03', '10')]
+[['06', '10'], ['07', '11'], ['06', '15'], ['14', '15']]
+Loadind Dataset for gestures:  ['06', '10']
+328 samples loaded
+Scaling Dataset for gestures:  ['06', '10']
+328 samples scaled
+Cleaning Dataset for gestures:  ['06', '10']
+245 samples cleaned
+83 samples outliers
+Time slicing Cleaned Dataset for gestures:  ['06', '10']
+245 cleaned samples sliced
+0 cleaned samples damaged
+Time slicing Outliers Dataset for gestures:  ['06', '10']
+83 outliers samples sliced
+0 outliers samples damaged
+Hyperparameter tunning started for Dataset for gestures:  ['06', '10']
+Fitting 5 folds for each of 72 candidates, totalling 360 fits
+WARNING:tensorflow:5 out of the last 12 calls to <function Model.make_test_function.<locals>.test_function at 0x0000017993070D30> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:5 out of the last 13 calls to <function Model.make_test_function.<locals>.test_function at 0x00000179BC038C10> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
